@@ -42,7 +42,7 @@ The cleaned version — saved to your Downloads folder — **retains your full C
 
 ---
 
-## **✅Version 1.0.0 – First Unofficial Release ** 
+## ✅ **Version 1.0.0 – First Unofficial Release ** 
 
 
 This tool cleans up your `1SE.json` save file from Assetto Corsa Competizione’s Career Mode. It removes:
