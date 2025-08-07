@@ -7,6 +7,35 @@
 
 ---
 
+## Background
+
+In Assetto Corsa Competizione’s Career Mode, many users encounter increasingly long load times the more frequently they save their game progress. In some cases, this delay can stretch to several minutes, significantly impacting the gameplay experience.
+
+This issue is caused by the accumulation of redundant data in the `1SE.json` save file. Over time, the file can grow to hundreds of thousands of lines, often containing duplicate events and repeated team entries. While some community members have recommended manually cleaning the file, doing so with such large files is impractical.
+
+This tool was created to address that problem by automating the cleanup process.
+
+---
+
+## Purpose
+
+The ACC Career Event Optimizer is designed to:
+
+- Analyze your `1SE.json` Career Mode save file
+- Remove duplicate events (based on track and mode)
+- Eliminate duplicate team and car entries (based on `teamGuid`)
+- Sanitize null byte or corrupted data entries
+
+The tool also:
+
+- Automatically detects your save file (or lets you select it manually)
+- Creates a backup of your original file before any changes are made
+- Outputs a cleaned version of the file to your Downloads folder
+
+This reduces load times and ensures a more consistent experience in Career Mode without requiring manual file edits.
+
+---
+
 ## Overview
 
 This tool cleans up your `1SE.json` save file from Assetto Corsa Competizione’s Career Mode. It removes:
