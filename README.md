@@ -29,7 +29,7 @@ It automatically:
 
 ##  How to Use
 
-### 💻 Option 1: Download the `.exe` (No Python Needed)
+### - Option 1: Download the `.exe` (No Python Needed)
 
 1. Go to the [Releases Page](https://github.com/royctrn/Assetto-Corsa-Competizione-Event-Save-Optimization/releases)
 2. Download the `CareerEventOptimizer.exe`
@@ -38,7 +38,7 @@ It automatically:
 
 ---
 
-### 🐍 Option 2: Run the Python Script
+### - Option 2: Run the Python Script
 
 1. Clone the repo:
    ```bash
