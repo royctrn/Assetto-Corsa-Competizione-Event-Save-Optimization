@@ -7,8 +7,6 @@ A simple, one-click tool that finds and cleans your **1SE.json career save file*
 
 This tool removes duplicate events and team entries from your career progression file, creates a backup of the original, and exports a cleaned version to your **Downloads** folder.
 
-![ACC Screenshot](https://i.imgur.com/W9sAjrO.png) <!-- Optional: Add your own banner image -->
-
 ---
 
 ## 💡 What It Does
