@@ -16,7 +16,7 @@ This utility helps clean up your 1SE.json career save file by removing:
 ✅ Null byte corruption for safer loading
 
 
-**Cleans up your ACC career save file** by removing:
+**Cleans up your ACC career save file by removing:**
 - 🔁 Duplicate events (same track + mode)
 - 🚗 Duplicate team entries in car lists
 
