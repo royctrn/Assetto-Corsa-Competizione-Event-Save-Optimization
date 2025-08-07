@@ -15,15 +15,8 @@ This utility helps clean up your 1SE.json career save file by removing:
 ✅ Duplicate team/car entries (based on teamGuid)
 ✅ Null byte corruption for safer loading
 
-🔧 Additional features:
 
-Automatically finds your ACC save file
-Backs up the original file as 1SE_backup.json
-Saves the cleaned file to your Downloads folder
-Option to manually select the file if auto-detection fails
-Clean GUI (no command line required)
-
-**clean up your ACC career save file** by removing:
+**Cleans up your ACC career save file** by removing:
 - 🔁 Duplicate events (same track + mode)
 - 🚗 Duplicate team entries in car lists
 
