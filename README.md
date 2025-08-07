@@ -7,18 +7,18 @@
 
 ---
 
-## 🎯 What This Tool Does
+##  What This Tool Does
 
 This utility helps clean up your 1SE.json career save file by removing:
 
-✅ Duplicate events (based on track and mode)
-✅ Duplicate team/car entries (based on teamGuid)
-✅ Null byte corruption for safer loading
+- Duplicate events (based on track and mode)
+- Duplicate team/car entries (based on teamGuid)
+- Null byte corruption for safer loading
 
 
 **Cleans up your ACC career save file by removing:**
-- 🔁 Duplicate events (same track + mode)
-- 🚗 Duplicate team entries in car lists
+-  Duplicate events (same track + mode)
+-  Duplicate team entries in car lists
 
 It automatically:
 - Detects your `1SE.json` save file (or lets you pick it manually)
@@ -27,7 +27,7 @@ It automatically:
 
 ---
 
-## 🧑‍💻 How to Use
+##  How to Use
 
 ### 💻 Option 1: Download the `.exe` (No Python Needed)
 
@@ -62,7 +62,7 @@ python CareerEventOptimizer.py
 
 ---
 
-## 📝 Disclaimer
+##  Disclaimer
 
 This is the **first script I've ever written**, so I'm still learning.
 
