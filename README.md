@@ -15,7 +15,6 @@ This issue is caused by the accumulation of redundant data in the `1SE.json` sav
 
 This tool was created to address that problem by automating the cleanup process.
 
----
 
 ## Purpose
 
@@ -34,7 +33,6 @@ The tool also:
 
 This reduces load times and ensures a more consistent experience in Career Mode without requiring manual file edits.
 
----
 
 ## Overview
 
