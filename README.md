@@ -102,7 +102,7 @@ Cleaning the file can help reduce load times and improve save stability.
 
 This is the first Python script I've written. I'm still learning, so if you have suggestions, spot bugs, or want to contribute improvements, feel free to open an issue or pull request. Feedback is always welcome.
 
-### Legal Disclaimer
+## Legal Disclaimer
 
 This project is an unofficial third-party tool developed by a fan of Assetto Corsa Competizione (ACC).  
 I do **not** intend to claim ownership of, or affiliation with, Assetto Corsa Competizione, Kunos Simulazioni, or any associated trademarks or intellectual property.  
