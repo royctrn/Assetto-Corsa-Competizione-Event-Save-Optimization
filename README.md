@@ -1,56 +1,53 @@
-========================================
- Assetto Corsa Competizione Career Event Optimizer
-===========================================
+# 🏁 Assetto Corsa Competizione Career Event Optimizer
 
-This tool automatically finds and cleans your saved Career Event file (1SE.json)
-for Assetto Corsa Competizione. It removes duplicate events and duplicated
-teams, and then saves a cleaned version to your Downloads folder.
+[![Python](https://img.shields.io/badge/Python-3.11%2B-blue?logo=python)](https://www.python.org/)
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
+[![GitHub Releases](https://img.shields.io/github/v/release/royctrn/Assetto-Corsa-Competizione-Event-Save-Optimization?sort=semver)](https://github.com/royctrn/Assetto-Corsa-Competizione-Event-Save-Optimization/releases)
+[![Downloads](https://img.shields.io/github/downloads/royctrn/Assetto-Corsa-Competizione-Event-Save-Optimization/total?label=Downloads&color=blue)](https://github.com/royctrn/Assetto-Corsa-Competizione-Event-Save-Optimization/releases)
 
------------------------------
-🚀 WHAT THIS TOOL DOES
------------------------------
-✔ Locates your 1SE.json save file
-✔ Creates a backup of your original
-✔ Removes duplicate events (based on track + mode)
-✔ Removes duplicate car/team entries
-✔ Saves a cleaned 1SE.json to your Downloads folder
+---
 
------------------------------
-🛠️ HOW TO USE IT
------------------------------
-1. Double-click the `CareerEventOptimizer.exe` file
-2. A pop-up will appear:
-   ➤ Click "Yes" to auto-detect your save file
-   ➤ Click "No" if you want to manually browse for it
-3. The tool will:
-   ✔ Clean the file
-   ✔ Save a backup (1SE_backup.json)
-   ✔ Output a cleaned version to:
-     ➤ C:\Users\<YourName>\Downloads\1SE.json
+## 🎯 What This Tool Does
 
------------------------------
-📂 DEFAULT SAVE FILE LOCATION
------------------------------
-This tool looks for your file at one of these:
-  - C:\Users\<YourName>\Documents\Assetto Corsa Competizione\Savegames\1SE.json
-  - Or inside a folder like:
-    C:\Users\<YourName>\Documents\Assetto Corsa Competizione\Savegames\<random_folder>\1SE.json
+A simple tool to **clean up your ACC career save file** by removing:
+- 🔁 Duplicate events (same track + mode)
+- 🚗 Duplicate team entries in car lists
 
-If the file isn't found, you can select it manually.
+It automatically:
+- Detects your `1SE.json` save file (or lets you pick it manually)
+- Backs up your original file
+- Saves the cleaned version to your **Downloads** folder
 
------------------------------
-📦 OUTPUT EXAMPLE
------------------------------
-✔ Backup:   C:\Users\<YourName>\Documents\...\1SE_backup.json
-✔ Cleaned:  C:\Users\<YourName>\Downloads\1SE.json
+---
 
------------------------------
-❗IMPORTANT NOTES
------------------------------
-• Always back up your save folder before replacing files (this tool already makes one!)
-• After saving the cleaned file, you can copy it back to your Savegames folder
-• Make sure the game is closed while running this tool
+## 🧑‍💻 How to Use
 
------------------------------
-👤 Created by: Roy Tran
------------------------------
+### 💻 Option 1: Download the `.exe` (No Python Needed)
+
+1. Go to the [Releases Page](https://github.com/royctrn/Assetto-Corsa-Competizione-Event-Save-Optimization/releases)
+2. Download the `CareerEventOptimizer.exe`
+3. Run it — a GUI will pop up
+4. It auto-finds your `1SE.json` or lets you choose manually
+
+---
+
+### 🐍 Option 2: Run the Python Script
+
+1. Clone the repo:
+   ```bash
+   git clone https://github.com/royctrn/Assetto-Corsa-Competizione-Event-Save-Optimization.git
+   cd Assetto-Corsa-Competizione-Event-Save-Optimization
+Create a virtual environment and install requirements:
+
+bash
+Copy
+Edit
+python -m venv .venv
+.venv\Scripts\activate
+pip install -r requirements.txt  # (if needed)
+Run the script:
+
+bash
+Copy
+Edit
+python CareerEventOptimizer.py
