@@ -1,6 +1,5 @@
 ===========================================
  Assetto Corsa Competizione Career Event Optimizer
-
 ===========================================
 
 This tool automatically finds and cleans your saved Career Event file (1SE.json)
