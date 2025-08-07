@@ -33,6 +33,7 @@ The tool also:
 
 This reduces load times and ensures a more consistent experience in Career Mode without requiring manual file edits.
 
+---
 
 ## Overview
 
