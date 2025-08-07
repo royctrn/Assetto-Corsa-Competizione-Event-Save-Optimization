@@ -9,7 +9,7 @@
 
 ## Background
 
-In Assetto Corsa Competizione’s Career Mode, many users encounter increasingly long load times the more frequently they save their game progress. In some cases, this delay can stretch to several minutes, significantly impacting the gameplay experience.
+In Assetto Corsa Competizione’s Career Mode, many users encounter increasingly long load times the more frequently they save their game progress. In some cases, this delay can stretch to several minutes, significantly impacting the single-player gameplay experience.
 
 This issue is caused by the accumulation of redundant data in the `1SE.json` save file. Over time, the file can grow to hundreds of thousands of lines, often containing duplicate events and repeated team entries. While some community members have recommended manually cleaning the file, doing so with such large files is impractical.
 
@@ -33,7 +33,7 @@ The tool also:
 
 This reduces load times and ensures a more consistent experience in Career Mode without requiring manual file edits.
 
-## Important Note
+## Important Notes
 
 **You will not lose your Career Mode progress.**  
 The tool creates a backup of your original `1SE.json` file as `1SE_backup.json` before making any changes.  
