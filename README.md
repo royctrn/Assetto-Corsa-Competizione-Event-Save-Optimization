@@ -42,9 +42,7 @@ The cleaned version — saved to your Downloads folder — **retains your full C
 
 ---
 
-Version 1.0.0 – First Release ✅
-
-Clean up bloated ACC Career Mode save files (1SE.json) to fix long load times and preserve your progress.
+# Version 1.0.0 – First Release ✅
 
 
 ## Overview
