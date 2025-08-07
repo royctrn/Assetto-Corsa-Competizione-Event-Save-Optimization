@@ -1,0 +1,20 @@
+# Byte-compiled / cache
+__pycache__/
+*.py[cod]
+
+# PyInstaller build folders
+build/
+dist/
+*.spec
+
+# Python virtual environment
+.venv/
+env/
+venv/
+
+# VS Code settings
+.vscode/
+
+# Output files
+1SE_cleaned.json
+1SE_backup.json
