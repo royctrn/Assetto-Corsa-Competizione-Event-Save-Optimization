@@ -61,7 +61,7 @@ python CareerEventOptimizer.py
 
 
 
-#📝 Disclaimer
+**📝 Disclaimer**
 
 This is the first script I've ever written, so I'm still learning!
 
