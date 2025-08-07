@@ -46,7 +46,6 @@ The cleaned version — saved to your Downloads folder — **retains your full C
 
 Clean up bloated ACC Career Mode save files (1SE.json) to fix long load times and preserve your progress.
 
-
 ## Overview
 
 This tool cleans up your `1SE.json` save file from Assetto Corsa Competizione’s Career Mode. It removes:
