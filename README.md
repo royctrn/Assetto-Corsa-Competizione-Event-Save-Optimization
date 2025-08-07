@@ -7,68 +7,65 @@
 
 ---
 
-##  What This Tool Does
+## Overview
 
-This utility helps clean up your 1SE.json career save file by removing:
+This tool cleans up your `1SE.json` save file from Assetto Corsa Competizione’s Career Mode. It removes:
 
-- Duplicate events (based on track and mode)
-- Duplicate team/car entries (based on teamGuid)
-- Null byte corruption for safer loading
+- Duplicate events (same track and mode)
+- Duplicate team/car entries (based on `teamGuid`)
+- Null byte corruption
 
+Cleaning the file can help reduce load times and improve save stability.
 
-**Cleans up your ACC career save file by removing:**
--  Duplicate events (same track + mode)
--  Duplicate team entries in car lists
+## Features
 
-It automatically:
-- Detects your `1SE.json` save file (or lets you pick it manually)
-- Backs up your original file
-- Saves the cleaned version to your **Downloads** folder
+- Automatically detects your `1SE.json` file or allows manual selection
+- Backs up the original file before making any changes
+- Saves a cleaned version to your Downloads folder
+- Available as both a standalone `.exe` and a Python script
 
----
+## How to Use
 
-##  How to Use
+### Option 1: Download the `.exe` (No Python Required)
 
-### - Option 1: Download the `.exe` (No Python Needed)
+1. Go to the [Releases](https://github.com/royctrn/Assetto-Corsa-Competizione-Event-Save-Optimization/releases) page.
+2. Download `CareerEventOptimizer.exe`.
+3. Run the program. A simple GUI will appear.
+4. It will either auto-detect your save or let you choose it manually.
+5. A cleaned version will be saved to your Downloads folder, and a backup of the original will be created.
 
-1. Go to the [Releases Page](https://github.com/royctrn/Assetto-Corsa-Competizione-Event-Save-Optimization/releases)
-2. Download the `CareerEventOptimizer.exe`
-3. Run it — a GUI will pop up
-4. It auto-finds your `1SE.json` or lets you choose manually
+### Option 2: Run the Python Script
 
----
+1. Clone the repository:
 
-### - Option 2: Run the Python Script
+    ```bash
+    git clone https://github.com/royctrn/Assetto-Corsa-Competizione-Event-Save-Optimization.git
+    cd Assetto-Corsa-Competizione-Event-Save-Optimization
+    ```
 
-1. Clone the repo:
-   ```bash
-   git clone https://github.com/royctrn/Assetto-Corsa-Competizione-Event-Save-Optimization.git
-   cd Assetto-Corsa-Competizione-Event-Save-Optimization
-Create a virtual environment and install requirements:
+2. (Optional) Create and activate a virtual environment:
 
-bash
-Copy
-Edit
-python -m venv .venv
-.venv\Scripts\activate
-pip install -r requirements.txt  # (if needed)
-Run the script:
+    ```bash
+    python -m venv .venv
+    .venv\Scripts\activate
+    ```
 
-bash
-Copy
-Edit
-python CareerEventOptimizer.py
+3. Install dependencies:
 
+    ```bash
+    pip install -r requirements.txt
+    ```
 
----
+4. Run the script:
 
-##  Disclaimer
+    ```bash
+    python CareerEventOptimizer.py
+    ```
 
-This is the **first script I've ever written**, so I'm still learning.
+## Disclaimer
 
-If you spot bugs, have suggestions, or want to improve the code, feel free to open an issue or pull request.
+This is the first Python script I've written. I'm still learning, so if you have suggestions, spot bugs, or want to contribute improvements, feel free to open an issue or pull request. Feedback is always welcome.
 
-**All constructive feedback is welcome and appreciated.**
+## License
 
----
-
+This project is licensed under the [MIT License](LICENSE).
