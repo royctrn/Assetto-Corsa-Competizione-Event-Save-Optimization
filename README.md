@@ -35,8 +35,9 @@ This reduces load times and ensures a more consistent experience in Career Mode 
 
 ## Important Note
 
-**This tool does not modify your original save file.**  
-A backup of your current `1SE.json` file is automatically created as `1SE_backup.json` before any changes are made. The cleaned version is saved separately in your Downloads folder as `1SE.json`. This ensures that your original Career Mode progress is preserved and can be restored at any time.
+**You will not lose your Career Mode progress.**  
+The tool creates a backup of your original `1SE.json` file as `1SE_backup.json` before making any changes.  
+The cleaned version — saved to your Downloads folder — **retains your full Career Mode progress** while removing redundant or corrupted entries to improve loading times.
 
 
 ---
