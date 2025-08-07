@@ -60,13 +60,15 @@ Edit
 python CareerEventOptimizer.py
 
 
+---
 
+## 📝 Disclaimer
 
+This is the **first script I've ever written**, so I'm still learning.
 
+If you spot bugs, have suggestions, or want to improve the code, feel free to open an issue or pull request.
 
-**📝 Disclaimer**
+**All constructive feedback is welcome and appreciated.**
 
-This is the first script I've ever written, so I'm still learning!
+---
 
-If you have any suggestions, spot bugs, or want to improve the code, feel free to open an issue or pull request.
-All constructive feedback is welcome and appreciated.
