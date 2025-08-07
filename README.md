@@ -42,7 +42,7 @@ The cleaned version — saved to your Downloads folder — **retains your full C
 
 ---
 
-# Version 1.0.0 – First Release ✅
+## **Version 1.0.0 – First Official Release ✅** 
 
 
 ## Overview
